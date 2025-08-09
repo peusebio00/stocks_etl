@@ -1,7 +1,8 @@
 ## Yfinance-Excel ETL
-This is a script I built to help a very special stakeholder optimise a process they carry out manually and on a daily basis... my dad :)
-* For years now, my dad has kept up with the stock market due to personal interest and for his own personal endeavours - almost every single day, he gets up earlier than he has to so he can sit down and dedicate some time to manually extract OHLC (Open, High, Low, Close) values from the previous day and for 20 distinct stock tickers of his own choosing. He then uses this information to drive his decision-making - e.g. buying/selling stocks.
-* In setting out to build this project, I aimed to fully automate this process for him so he has to do absolutely no manual work. As such, the overarching goal(s) for this project were to cover a full ETL project where data would be extracted from Yahoo Finance, transformed using Python/Pandas, and then loaded to a target Excel file - the very file my dad uses and adds the data to manually on a daily basis
+This is a script I built to help a very special stakeholder optimise a process they carry out manually and on a daily basis... __my dad :)__
+* For years now, my dad has kept up with the stock market due to personal interest and for his own personal endeavours - almost every single day, he __gets up earlier than he has to__ so he can sit down and dedicate some time to manually extract OHLC (Open, High, Low, Close) values from the previous day and for 20 distinct stock tickers of his own choosing. He then __uses this information to drive his decision-making - e.g. buying/selling stocks.__
+* In setting out to build this project, I __aimed to fully automate this process for him so he has to do absolutely no manual work__. As such, the overarching goal(s) for this project were to __build a full ETL project where data would be extracted from Yahoo Finance, transformed using Python/Pandas, and then loaded to a target Excel file__ - the very file my dad uses and adds the data to manually on a daily basis. Data would also have to be appended to the correct sheets (one sheet per stock ticker), and correct rows (different rows for different dates).
+* All of these goals were met!
 
 ## Automation
 This script was stored in this repository as a Jupyter Notebook, e.g. a file with the .ipynb extension. 
