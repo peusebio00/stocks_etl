@@ -17,7 +17,7 @@ __Automated Data Extraction__: Fetches end-of-day trading data (Open, High, Low,
 
 __Robust Error Handling__: Integrates a safety mechanism to detect and handle extraction errors. If any data fails to extract, the script will stop and send an email notification to the user.
 
-__Secure Credentials Management__: Utilizes a YAML file (credentials.yml) to securely store sensitive information like email addresses and passwords, preventing hardcoding in the script.
+__Secure Credentials Management__: Utilises a YAML file (credentials.yml) to securely store sensitive information like email addresses and passwords, preventing hardcoding in the script.
 
 __Data Transformation__: The script cleans and restructures the raw data from yfinance into a clean, horizontal format, ensuring only yesterday's finalized market data is used.
 
